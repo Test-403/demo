@@ -1,0 +1,51 @@
+# 编译输出
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# IDE 配置
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# 日志文件
+*.log
+logs/
+nohup.out
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.bak
+Thumbs.db
+.DS_Store
+
+# 数据库文件
+*.db
+*.sqlite
+*.sql
+
+# Maven
+.mvn/
+wrapper/
+maven-wrapper.jar
+
+# Spring Boot
+application-*.yml
+application-*.properties
+bootstrap-*.yml
+bootstrap-*.properties
+
+# 其他
+*.pid
+*.pid.lock
+node_modules/

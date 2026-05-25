@@ -1,0 +1,18 @@
+package com.ruoyi.common.utils;
+
+/**
+ * å¤„ç†å¹¶è®°å½•æ—¥å¿—æ–‡ä»?
+ * 
+ * @author ÄãµÄÃû×Ö
+ */
+public class LogUtils
+{
+    public static String getBlock(Object msg)
+    {
+        if (msg == null)
+        {
+            msg = "";
+        }
+        return "[" + msg.toString() + "]";
+    }
+}

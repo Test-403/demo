@@ -1,0 +1,16 @@
+package com.ruoyi.common.exception.user;
+
+/**
+ * ç”¨æˆ·ä¸å­˜åœ¨å¼‚å¸¸ç±»
+ * 
+ * @author ÄãµÄÃû×Ö
+ */
+public class UserNotExistsException extends UserException
+{
+    private static final long serialVersionUID = 1L;
+
+    public UserNotExistsException()
+    {
+        super("user.not.exists", null);
+    }
+}

@@ -1,0 +1,16 @@
+package com.ruoyi.common.exception.file;
+
+/**
+ * æ–‡ä»¶åç§°è¶…é•¿é™åˆ¶å¼‚å¸¸ç±?
+ * 
+ * @author ÄãµÄÃû×Ö
+ */
+public class FileNameLengthLimitExceededException extends FileException
+{
+    private static final long serialVersionUID = 1L;
+
+    public FileNameLengthLimitExceededException(int defaultFileNameLength)
+    {
+        super("upload.filename.exceed.length", new Object[] { defaultFileNameLength });
+    }
+}
