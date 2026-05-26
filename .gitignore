@@ -32,7 +32,7 @@ Thumbs.db
 # 数据库文件
 *.db
 *.sqlite
-*.sql
+# 已取消忽略 *.sql，方便提交数据库脚本
 
 # Maven
 .mvn/
@@ -40,12 +40,14 @@ wrapper/
 maven-wrapper.jar
 
 # Spring Boot
-application-*.yml
+# 已取消忽略 yml 配置文件，方便团队同步环境配置
 application-*.properties
-bootstrap-*.yml
 bootstrap-*.properties
 
 # 其他
 *.pid
 *.pid.lock
 node_modules/
+# 明确不忽略 package.json 和 package-lock.json
+!package.json
+!package-lock.json
